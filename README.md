@@ -94,33 +94,33 @@ The application provides:
 
 🚀 Setup Instructions
 1️⃣ Clone the Repository
-git clone <repo-url>
-cd foldername
+  git clone <repo-url>
+  cd foldername
 
 2️⃣ Create Virtual Environment
-python3 -m venv venv3
-source venv3/bin/activate   # On Mac/Linux
-venv3\Scripts\activate      # On Windows
+  python3 -m venv venv3
+  source venv3/bin/activate   # On Mac/Linux
+  venv3\Scripts\activate      # On Windows
 
 3️⃣ Install Dependencies
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 4️⃣ Start Redis (Mac with Homebrew)
-brew services start redis
+  brew services start redis
 
 5️⃣ Start Mailhog (for email testing)
-mailhog
+  mailhog
 
 6️⃣ Run Flask Application
-python app.py
+  python app.py
 
 7️⃣ Start Celery Workers
 
-For worker only:
+  For worker only:
 
-celery -A app:celery_app worker --loglevel=info
+    celery -A app:celery_app worker --loglevel=info
 
 
-For worker + beat (scheduler):
+  For worker + beat (scheduler):
 
-celery -A app:celery_app worker --loglevel=info --beat
+    celery -A app:celery_app worker --loglevel=info --beat
