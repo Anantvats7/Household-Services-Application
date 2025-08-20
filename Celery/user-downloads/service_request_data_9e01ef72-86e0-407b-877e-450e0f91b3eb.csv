@@ -1,0 +1,4 @@
+id,service_id,customer_id,professional_id,date_of_request,date_of_completion,service_status,remarks
+0,0,1,1,2024-08-20T16:06:13.176788,2024-11-07T15:17:55,closed,
+1,1,1,2,2024-06-07T08:30:15.456700,2024-11-09T02:24:28,closed,good
+3,2,2,3,2024-11-09T15:05:00,2024-11-09T09:39:59,closed,NULL

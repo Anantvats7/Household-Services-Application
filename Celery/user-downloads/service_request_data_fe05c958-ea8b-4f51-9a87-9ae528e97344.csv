@@ -1,0 +1,4 @@
+id,service_id,customer_id,professional_id,date_of_request,date_of_completion,service_status,remarks,closedby
+4,4,2,3,2024-12-03T11:27:00,2024-12-03T05:57:59,closed,,professional
+6,8,4,8,2024-12-03T15:51:28.909066,2024-12-03T16:04:00,closed,,professional
+7,7,4,7,2024-12-03T15:52:43.359647,2024-12-03T16:05:53,closed,,professional
