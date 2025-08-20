@@ -66,9 +66,9 @@ The application provides:
   
   Database: SQLite
   
-  UI: VueJS + Bootstrap (no other CSS framework allowed)
+  UI: VueJS + Bootstrap 
   
-  Templating (if required): Jinja2
+  Templating : Jinja2
   
   Caching: Redis
   
