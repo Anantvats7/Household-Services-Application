@@ -94,24 +94,30 @@ The application provides:
 
 🚀 Setup Instructions:
   1️⃣ Clone the Repository
+  
       git clone <repo-url>
       cd foldername
 
 2️⃣ Create Virtual Environment
+
     python3 -m venv venv3
     source venv3/bin/activate   # On Mac/Linux
     venv3\Scripts\activate      # On Windows
 
 3️⃣ Install Dependencies
+
     pip install -r requirements.txt
 
 4️⃣ Start Redis (Mac with Homebrew)
+
     brew services start redis
 
 5️⃣ Start Mailhog (for email testing)
+
     mailhog
 
 6️⃣ Run Flask Application
+
     python app.py
 
 7️⃣ Start Celery Workers
