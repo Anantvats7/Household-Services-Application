@@ -92,10 +92,10 @@ The application provides:
     CSV export for closed services
     ✔️ Performance & Caching (with expiry)
 
-🚀 Setup Instructions
-1️⃣ Clone the Repository
-    git clone <repo-url>
-    cd foldername
+🚀 Setup Instructions:
+  1️⃣ Clone the Repository
+      git clone <repo-url>
+      cd foldername
 
 2️⃣ Create Virtual Environment
     python3 -m venv venv3
