@@ -62,19 +62,19 @@ The application provides:
 
 ⚙️ Tech Stack
 
-  Backend: Flask (Python)
+    Backend: Flask (Python)
+    
+    Database: SQLite
+    
+    UI: VueJS + Bootstrap 
+    
+    Templating : Jinja2
+    
+    Caching: Redis
+    
+    Batch Jobs & Scheduling: Celery + Redis
   
-  Database: SQLite
-  
-  UI: VueJS + Bootstrap 
-  
-  Templating : Jinja2
-  
-  Caching: Redis
-  
-  Batch Jobs & Scheduling: Celery + Redis
-
-  Mail Testing: Mailhog
+    Mail Testing: Mailhog
 
 📌 Core Functionalities
 
